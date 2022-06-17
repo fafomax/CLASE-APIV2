@@ -22,5 +22,6 @@ class API {
 
 // Mostrar de mejor manera en el DOM y que al no cargar datos muestre los errores
 // Mejorar el spinner
+// Utilizar async/await
 
 export default API
