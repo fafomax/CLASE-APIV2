@@ -3,3 +3,6 @@ export const formularioBuscar = document.querySelector('#formulario-buscar'),
     divMensajes = document.querySelector('#mensajes'),
     divResultado = document.querySelector('#resultado'),
     headingResultado = document.querySelector('.letra-resultado h2')
+
+
+    // Colocar las variables cancion y artista acá
