@@ -5,4 +5,4 @@ export const formularioBuscar = document.querySelector('#formulario-buscar'),
     headingResultado = document.querySelector('.letra-resultado h2')
 
 
-    // Colocar las variables cancion y artista acá
+// Colocar las variables cancion y artista acá
