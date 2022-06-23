@@ -9,10 +9,19 @@ UI.formularioBuscar.addEventListener('submit', buscarCancion)
 function buscarCancion(e) {
     e.preventDefault()
 
-    const artista = document.querySelector('#artista').value
-    const cancion = document.querySelector('#cancion').value
+    // const artista = document.querySelector('#artista').value
+    // const cancion = document.querySelector('#cancion').value
 
-    const busqueda = new API(artista, cancion)
+    const busqueda = new API(UI.artista.value, UI.cancion.value)
+
+/*     if (UI.artista.value && UI.cancion.value) {
+        // limpiarHTML()
+        const busqueda = new API(UI.artista.value, UI.cancion.value)
+        busqueda.consultarAPI();
+    } else {
+        // limpiarHTML()
+        UI.headingResultado.textContent = 'Debe llenar todos los campos'
+    } */
     busqueda.consultarAPI()
 
 }
